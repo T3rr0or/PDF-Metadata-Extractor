@@ -14,14 +14,14 @@ Navigate to the directory containing the pdf_analysis_tool.py script.
 To execute the script in the current working directory, enter the following command:
 
 ```
-python pdf_analysis_tool.py
+python run.py
 ```
 
 To execute the script in a specific directory, provide the directory path as a command-line argument:
 bash
 
 ```
-python pdf_analysis_tool.py /path/to/directory
+python run.py /path/to/directory
 ```
 
 The script will analyze all PDF files in the specified directory and write the results to a text file called 'output.txt'. The output for each file will include the name of the file, the SHA-256 hash calculated by 'sha256sum', and the metadata and other information extracted by 'pdfx'.
