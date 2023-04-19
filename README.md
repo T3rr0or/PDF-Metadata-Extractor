@@ -10,7 +10,7 @@ Requirements:
 
 Usage
 Open a terminal window.
-Navigate to the directory containing the pdf_analysis_tool.py script.
+Navigate to the directory containing the run.py script.
 To execute the script in the current working directory, enter the following command:
 
 ```
